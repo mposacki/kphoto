@@ -1,0 +1,45 @@
+{
+  "name": "kphoto",
+  "version": "1.0.0",
+  "description": "photography",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.18.8",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-combine-mq": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-ftp": "^1.1.0",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-async-tasks": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.2",
+    "gulp-util": "^3.0.8",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-jshint": "^2.0.4",
+    "gulp-watch": "^4.3.11",
+    "run-sequence": "^1.2.2",
+    "vinyl-ftp": "^0.6.0",
+    "jshint": "^2.9.4",
+    "gulp-postcss": "^6.4.0",
+    "jshint-stylish": "^2.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mposacki/kphoto.git"
+  },
+  "author": "maciejposacki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mposacki/kphoto/issues"
+  },
+  "homepage": "https://github.com/mposacki/kphoto"
+}
