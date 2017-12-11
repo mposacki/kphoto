@@ -1,3 +1,7 @@
 build/
+
 node_modules/
+
 gulpfile.js
+.git/
+.htaccess

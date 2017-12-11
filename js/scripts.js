@@ -27,7 +27,10 @@ function carousel_change(tag, number){
         }
 
         var img = document.createElement('img');
-        img.setAttribute("src","images/gallery/"+tag+"0"+i+".jpg");
+        if (i>=10)
+            img.setAttribute("src","images/gallery/"+tag+"0"+i+".jpg");
+        if (i<10)
+            img.setAttribute("src","images/gallery/"+tag+"00"+i+".jpg");
         img.setAttribute("alt","Krajobraz");
         ind[0].appendChild(list_item);
         div_in.appendChild(img);
@@ -35,14 +38,14 @@ function carousel_change(tag, number){
     }
 }
 
-$('#krj').on('click',function () {carousel_change("krj",49);})
-$('#krk').on('click',function () {carousel_change("krk",8);})
-$('#lud').on('click',function () {carousel_change("lud",4);})
-$('#nat').on('click',function () {carousel_change("nat",37);})
-$('#psz').on('click',function () {carousel_change("psz",11);})
-$('#roz').on('click',function () {carousel_change("roz",8);})
-$('#zw').on('click',function () {carousel_change("zw",41);})
-$('#wkr').on('click',function () {document.getElementById("carousel-example-generic").style.display="none";})
+$('#krj').on('click',function () {carousel_change("landscape",33);})
+$('#krk').on('click',function () {carousel_change("krakow",5);})
+$('#lud').on('click',function () {carousel_change("people",4);})
+$('#nat').on('click',function () {carousel_change("nature",38);})
+$('#psz').on('click',function () {carousel_change("food",12);})
+$('#roz').on('click',function () {carousel_change("other",12);})
+$('#zw').on('click',function () {carousel_change("animal",21);})
+$('#wkr').on('click',function () {carousel_change("product",3);})
 
 $('#navi_list li a').on('click', function() {
 

@@ -1,0 +1,366 @@
+body, html {
+    height: 100%
+}
+
+.btn:active:focus, .btn:focus, .btn:hover, .btn:visited, body {
+    color: #FFF
+}
+
+.btn:active:focus, .btn:focus, .btn:hover, .btn:visited, button:focus, button:hover, button:visited {
+    border-color: #3e8f3e;
+    outline-color: #3e8f3e;
+    background-color: #3e8f3e
+}
+
+h3, h4 {
+    line-height: 3rem
+}
+
+h5, h6 {
+    line-height: 2.8rem
+}
+
+#galeria, #start, .navbar-collapse {
+    text-align: center
+}
+
+#galeria, #omnie {
+    position: relative;
+    z-index: 1
+}
+
+#galeria, #kontakt, footer {
+    display: block;
+    background-size: cover
+}
+
+body {
+    font-family: 'Marck Script', cursive;
+    background-color: #FFF
+}
+
+#navi_list, .alert-warning, .score, footer {
+    font-family: Raleway, sans-serif
+}
+
+button {
+    background-color: #3e8f3e
+}
+
+a, a:hover {
+    color: #3e8f3e
+}
+
+a:hover {
+    text-decoration: none
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300
+}
+
+h1 {
+    font-size: 6rem
+}
+
+h2 {
+    font-size: 4rem;
+    line-height: 6rem
+}
+
+h3 {
+    font-size: 2.5rem
+}
+
+h4 {
+    font-size: 2rem
+}
+
+h5 {
+    font-size: 1.8rem
+}
+
+h6 {
+    font-size: 1.7rem
+}
+
+label, p {
+    font-size: 1.8rem;
+    line-height: 5rem
+}
+
+.form-control {
+    font-size: 2.4rem
+}
+
+.wow {
+    visibility: hidden
+}
+
+#galeria, #kontakt, #omnie, #start {
+    min-height: 100%;
+    overflow-x: hidden
+}
+
+.galeria, .omnie {
+    padding-bottom: 5rem
+}
+
+#navigation {
+    background-color: rgba(255, 255, 255, .6)
+}
+
+.navbar {
+    background-color: transparent;
+    font-size: 2.2rem;
+    color: #000;
+    min-height: 55px;
+    padding: 1rem 7rem;
+    border-color: transparent;
+    margin-bottom: 0
+}
+
+.navbar-brand {
+    height: auto
+}
+
+.navbar-outer {
+    width: 1200px
+}
+
+span.icon-bar {
+    background-color: #000
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-nav > li > a:focus, .navbar-nav > li > a:hover, .navbar-toggle:focus, .navbar-toggle:hover {
+    background-color: transparent
+}
+
+#navi_list {
+    padding: 1rem 0
+}
+
+#navi_list li a[href="#omnie"] {
+    display: none
+}
+
+.navbar-nav > li > a {
+    color: #000;
+    margin-left: 5px;
+    border: 2px solid transparent;
+    line-height: 1rem;
+    font-weight: 400
+}
+
+.navbar-nav > li > a:focus, .navbar-nav > li > a:hover {
+    display: block;
+    color: #000;
+    border: 2px solid #191970;
+    line-height: 1rem;
+    border-radius: 4px;
+    -webkit-transition: all .7s ease;
+    transition: all .7s ease
+}
+
+.navbar-nav > .active > a {
+    display: block;
+    border-color: #000;
+    border-radius: 4px
+}
+
+.navbar-collapse {
+    border-color: #FFF
+}
+
+.navbar-toggle {
+    border-color: inherit;
+    margin: 2.5rem
+}
+
+.kontakt hr, .kontakt hr:before {
+    height: 30px;
+    border-style: solid;
+    border-color: #000;
+    border-radius: 20px
+}
+
+.navbar-nav > .active > a, .navbar-nav > .active > a:focus, .navbar-nav > .active > a:hover {
+    color: #000;
+    background-color: transparent
+}
+
+#about > .container, footer {
+    background-color: #3e8f3e
+}
+
+#start {
+    display: block;
+    background: url(../images/background.jpg) center no-repeat;
+    background-size: cover
+}
+
+#galeria {
+    padding-top: 7.5em;
+    padding-bottom: 7.5em;
+    background-color: #FFF
+}
+
+#galeria .container {
+    padding-bottom: 25rem
+}
+
+#about {
+    position: relative;
+    margin: -25rem 0;
+    z-index: 5;
+    overflow-x: hidden
+}
+
+#about > .container {
+    color: #FFF;
+    padding: 8rem;
+    text-align: left;
+    line-height: 2rem
+}
+
+#kontakt, .modal-body, footer {
+    text-align: center
+}
+
+#about > .container .row div:last-child {
+    padding: 3rem 0 2rem
+}
+
+#about > .container .row div > p {
+    font-size: 2.3rem;
+    line-height: 3.3rem
+}
+
+#omnie {
+    padding-top: 10em;
+    padding-bottom: 10em;
+    background: url(../images/background2.JPG) center no-repeat;
+    display: block;
+    background-size: cover
+}
+
+#kontakt {
+    padding-top: 7.5em;
+    background-color: #FFF
+}
+
+.kontakt + div {
+    padding-top: 4rem
+}
+
+.kontakt hr {
+    border-width: 1px 0 0
+}
+
+.kontakt hr:before {
+    display: block;
+    content: "";
+    margin-top: -31px;
+    border-width: 0 0 1px
+}
+
+.kontakt .container {
+    padding-bottom: 7.5rem
+}
+
+.kontakt {
+    font-size: 2.5rem;
+    color: #000
+}
+
+.kontakt i {
+    font-size: 2rem;
+    padding-right: .5rem
+}
+
+.kontakt a {
+    padding: .5rem 0
+}
+
+.btn i {
+    padding-right: .5rem
+}
+
+#gallery {
+    position: static;
+    max-height: 100%;
+    width: 100%;
+    line-height: 0
+}
+
+#carousel-example-generic {
+    display: none
+}
+
+footer {
+    color: #000
+}
+
+footer p {
+    padding-top: 1.5rem;
+    font-size: 1.8rem;
+    line-height: 3rem
+}
+
+footer .container {
+    padding-bottom: 1.5rem
+}
+
+footer a, footer a:active, footer a:focus, footer a:hover {
+    color: #FFF
+}
+
+.modal-content {
+    color: #FFF;
+    background-color: rgba(17, 106, 188, 1)
+}
+
+.modal-header button span {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #FFF;
+    border: 3px solid #FFF
+}
+
+.modal-footer > button.btn:active, .modal-footer > button.btn:active:hover, .modal-footer > button.btn:focus, .modal-footer > button.btn:hover {
+    border: 1px solid rgba(17, 106, 188, 1);
+    color: #000;
+    background-color: #FFF
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    html {
+        font-size: 50%;
+        line-height: 1rem
+    }
+
+    .kontakt > p {
+        text-align: center
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 40%;
+        line-height: 1rem
+    }
+
+    .kontakt > p {
+        text-align: center
+    }
+}
+
+@media (max-width: 400px) {
+    .navbar-toggle {
+        margin: 2.5rem 0
+    }
+
+    .navbar {
+        padding: 0
+    }
+}

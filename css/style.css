@@ -171,7 +171,7 @@ span.icon-bar{
     text-align: center;
     background-color: #FFFFFF;
     display: block;
-    background: url('../images/DSCF2474.JPG') no-repeat center;
+    background: url('../images/background.jpg') no-repeat center;
     background-size: cover;
 }
 
@@ -222,7 +222,7 @@ span.icon-bar{
 #omnie{
     padding-top: 10em;
     padding-bottom: 10em;
-    background: url('../images/100_0193.JPG') no-repeat center;
+    background: url('../images/background2.JPG') no-repeat center;
     display: block;
     position: relative;
     background-size: cover;
@@ -241,6 +241,9 @@ span.icon-bar{
 
 .kontakt + div{
     padding-top: 4rem;
+}
+.kontakt h1{
+    color: #000;
 }
 
 .kontakt hr{
@@ -271,6 +274,7 @@ span.icon-bar{
 .kontakt i{
     font-size: 2rem;
     padding-right: 0.5rem;
+    color: #000;
 }
 
 .kontakt a{
